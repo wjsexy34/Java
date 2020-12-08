@@ -1,6 +1,7 @@
 
 /* 1. ArrayList 클래스를 java.util 패키지에서 import 하시오.  */
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Test {
 
@@ -411,104 +412,119 @@ public class Test {
 		/* ============================================================= */
 //					[ 상속과 인터페이스 문제 3]	
 		// 두 영웅 생성
-		Knight useo = new HolyKnight("우서", 200, 10); // 성기사를 기사로 바라보기떄문에 기사의 역할만 사용 가능.
-		Knight arthas = new MagicKnight("아서스", 150, 8);
+//		Knight useo = new HolyKnight("우서", 200, 10); // 성기사를 기사로 바라보기떄문에 기사의 역할만 사용 가능.
+//		Knight arthas = new MagicKnight("아서스", 150, 8);
+//
+//		/*관점을 달리한다!!!*/
+//		/*다이어그램을 참조하는 습관을 들이자!*/
+//		
+//		// 우서: 기사 버프
+//		useo.increaseHp();
+//		useo.increaseArmor();
+//		// 우서: 성기사 버프
+//		HolyKnight holyuseo = (HolyKnight) useo; // 캐스팅 (관점을 다르게 바라봄)
+//		holyuseo.healingAura();
+//		holyuseo.holyArmor();
+//		
+//		// 아서스: 기사 버프
+//		arthas.increaseHp();
+//		arthas.increaseArmor();
+//		// 아서스: 마검사 버프
+//		MagicKnight magicarthas = (MagicKnight) arthas;
+//		magicarthas.fireArmor();
+//		magicarthas.thunderBlade();
+//
+//  }
+//}
+//
+//interface Tanker {
+//	public void increaseArmor(); // 아머
+//
+//	public void increaseHp(); // 체력 +100
+//}
+//
+//interface Healer {
+//	public void healingAura(); // 초당 체력회복 +10
+//
+//	public void holyArmor(); // 데미지 감소 -10
+//}
+//
+//interface Sorcerer {
+//	public void fireArmor(); // 주변적 초당 데미지 +10
+//
+//	public void thunderBlade(); // 공격시 추가 데미지 +10
+//}
+//
+//class Knight implements Tanker {
+//	protected String name;
+//	protected int armor;
+//	protected int hp;
+//
+//	public Knight(String name, int armor, int hp) {
+//		this.name = name;
+//		this.armor = armor;
+//		this.hp = hp;
+//	}
+//
+//	public void increaseArmor() {
+//		System.out.printf("[%s] increaseHp() 시전!\n",name);
+//		System.out.printf("\t아머가 +5 증가합니다.\n");
+//		armor += 5;
+//	}
+//
+//	public void increaseHp() {
+//		System.out.printf("[%s] increaseHp() 시전!\n",name);
+//		System.out.printf("\t체력이 +100 증가합니다.\n");
+//		hp += 100;
+//  }
+//}
+//
+//// 1. 인터페이스의 메소드를 오버라이딩
+//class HolyKnight extends Knight implements Healer {
+//	public HolyKnight(String name, int armor, int hp) {
+//		super(name, armor, hp);
+//	}
+//
+//	public void healingAura() {
+//		System.out.printf("[%s] healingAura() 시전!\n",name);
+//		System.out.printf("\t초당 체력회복이 +10 증가합니다.\n");
+//	}
+//
+//	public void holyArmor() {
+//		System.out.printf("[%s] holyArmor() 시전!\n",name);
+//		System.out.printf("\t피격시 데미지를 -10 덜 받습니다.\n");
+//  }
+//}
+//
+//
+//class MagicKnight extends Knight implements Sorcerer {
+//	public MagicKnight(String name, int armor, int hp) {
+//		super(name, armor, hp);
+//	}
+//
+//	public void fireArmor() {
+//		System.out.printf("[%s] fireArmor() 시전!\n",name);
+//		System.out.printf("\t초당 주변 적에게 초당 +10의 데미지를 줍니다.\n");
+//	}
+//
+//	public void thunderBlade() {
+//		System.out.printf("[%s] healingAura() 시전!\n",name);
+//		System.out.printf("\t매 공격시 +10의 추가 데미지를 줍니다.\n");
 
-		/*관점을 달리한다!!!*/
-		/*다이어그램을 참조하는 습관을 들이자!*/
-		
-		// 우서: 기사 버프
-		useo.increaseHp();
-		useo.increaseArmor();
-		// 우서: 성기사 버프
-		HolyKnight holyuseo = (HolyKnight) useo; // 캐스팅 (관점을 다르게 바라봄)
-		holyuseo.healingAura();
-		holyuseo.holyArmor();
-		
-		// 아서스: 기사 버프
-		arthas.increaseHp();
-		arthas.increaseArmor();
-		// 아서스: 마검사 버프
-		MagicKnight magicarthas = (MagicKnight) arthas;
-		magicarthas.fireArmor();
-		magicarthas.thunderBlade();
-
-  }
-}
-
-interface Tanker {
-	public void increaseArmor(); // 아머
-
-	public void increaseHp(); // 체력 +100
-}
-
-interface Healer {
-	public void healingAura(); // 초당 체력회복 +10
-
-	public void holyArmor(); // 데미지 감소 -10
-}
-
-interface Sorcerer {
-	public void fireArmor(); // 주변적 초당 데미지 +10
-
-	public void thunderBlade(); // 공격시 추가 데미지 +10
-}
-
-class Knight implements Tanker {
-	protected String name;
-	protected int armor;
-	protected int hp;
-
-	public Knight(String name, int armor, int hp) {
-		this.name = name;
-		this.armor = armor;
-		this.hp = hp;
+	Scanner sca = new Scanner(System.in);
+	System.out.println("시작 단과 끝단을 지정해주세요.");
+	System.out.print("시작:"); 
+	int in1 = sca.nextInt();
+	System.out.print("끝:");
+	int in2 = sca.nextInt();
+	System.out.println();
+	for(int i=1; i<=9; i++) {
+		for(int a=in1;a<=in2;a++) {
+		System.out.printf("%dx%d=%d\t",a,i,a*i);
+		}
+		System.out.println();
 	}
-
-	public void increaseArmor() {
-		System.out.printf("[%s] increaseHp() 시전!\n",name);
-		System.out.printf("\t아머가 +5 증가합니다.\n");
-		armor += 5;
-	}
-
-	public void increaseHp() {
-		System.out.printf("[%s] increaseHp() 시전!\n",name);
-		System.out.printf("\t체력이 +100 증가합니다.\n");
-		hp += 100;
-  }
-}
-
-// 1. 인터페이스의 메소드를 오버라이딩
-class HolyKnight extends Knight implements Healer {
-	public HolyKnight(String name, int armor, int hp) {
-		super(name, armor, hp);
-	}
-
-	public void healingAura() {
-		System.out.printf("[%s] healingAura() 시전!\n",name);
-		System.out.printf("\t초당 체력회복이 +10 증가합니다.\n");
-	}
-
-	public void holyArmor() {
-		System.out.printf("[%s] holyArmor() 시전!\n",name);
-		System.out.printf("\t피격시 데미지를 -10 덜 받습니다.\n");
-  }
-}
-
-
-class MagicKnight extends Knight implements Sorcerer {
-	public MagicKnight(String name, int armor, int hp) {
-		super(name, armor, hp);
-	}
-
-	public void fireArmor() {
-		System.out.printf("[%s] fireArmor() 시전!\n",name);
-		System.out.printf("\t초당 주변 적에게 초당 +10의 데미지를 줍니다.\n");
-	}
-
-	public void thunderBlade() {
-		System.out.printf("[%s] healingAura() 시전!\n",name);
-		System.out.printf("\t매 공격시 +10의 추가 데미지를 줍니다.\n");
+	
   }
 }
 
