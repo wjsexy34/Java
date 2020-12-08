@@ -509,6 +509,6 @@ class MagicKnight extends Knight implements Sorcerer {
 	public void thunderBlade() {
 		System.out.printf("[%s] healingAura() 시전!\n",name);
 		System.out.printf("\t매 공격시 +10의 추가 데미지를 줍니다.\n");
-		System.out.println("hi");
   }
 }
+
