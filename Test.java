@@ -1,15 +1,15 @@
 
-/* 1. ArrayList Å¬·¡½º¸¦ java.util ÆĞÅ°Áö¿¡¼­ import ÇÏ½Ã¿À.  */
+/* 1. ArrayList Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ java.util ï¿½ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ import ï¿½Ï½Ã¿ï¿½.  */
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Test {
 
 	public static void main(String[] args) {
-//		/* 2. StringÀ» ´ãÀ» ¼ö ÀÖ´Â ArrayList °´Ã¼¸¦ ¸¸µå½Ã¿À. */
+//		/* 2. Stringï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ArrayList ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½. */
 //		ArrayList<String> names = new ArrayList<String>();
 //		
-//		/* 3. ¸®½ºÆ®¿¡ ÀÌ¸§À» Ãß°¡ÇÏ½Ã¿À. */
+//		/* 3. ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ï½Ã¿ï¿½. */
 //		names.add("Kim");
 //		names.add("Lee");
 //		names.add("Park");
@@ -17,28 +17,28 @@ public class Test {
 //		names.add("Hong");
 //		names.add("No");
 //		
-//		/* 4. ¹İº¹¹®À» ÅëÇØ ¸ğµç ÀÌ¸§À» Ãâ·ÂÇÏ½Ã¿À. */
+//		/* 4. ï¿½İºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã¿ï¿½. */
 //		for(int i=0; i<names.size(); i++) {
 //			System.out.printf("names.get(%d) -> %s \n",i,names.get(i));
 //		}
-		/* 1.BooksÀ» ´ã±â À§ÇÑ ArrayList °´Ã¼¸¦ ¸¸µå½Ã¿À. */
-		// (Àç»ç¿ë)
+		/* 1.Booksï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ArrayList ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½. */
+		// (ï¿½ï¿½ï¿½ï¿½)
 //		ArrayList<Books> List = new ArrayList<Books>();
-//		List.add(new Books("¿øÇÇ½º",4500));
-//		List.add(new Books("³ª·çÅä",4000));
-//		List.add(new Books("ÀÚ¹ÙÇÁ·Î±×·¡¹Ö",2400));
+//		List.add(new Books("ï¿½ï¿½ï¿½Ç½ï¿½",4500));
+//		List.add(new Books("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",4000));
+//		List.add(new Books("ï¿½Ú¹ï¿½ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½",2400));
 
-//		/* 2.Books °´Ã¼¸¦ »ı¼ºÇÏ½Ã¿À */
-//		Books onepice = new Books("¿øÇÇ½º",4500);
-//		Books naruto = new Books("³ª·çÅä",4000);
-//		Books java = new Books("ÀÚ¹ÙÇÁ·Î±×·¡¹Ö",24000);
+//		/* 2.Books ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¿ï¿½ */
+//		Books onepice = new Books("ï¿½ï¿½ï¿½Ç½ï¿½",4500);
+//		Books naruto = new Books("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",4000);
+//		Books java = new Books("ï¿½Ú¹ï¿½ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½",24000);
 //		
-//		/* 3.ArrayList °´Ã¼¿¡ Book °´Ã¼µéÀ» ´ãÀ¸¼¼¿ä. */
+//		/* 3.ArrayList ï¿½ï¿½Ã¼ï¿½ï¿½ Book ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. */
 //		List.add(onepice);
 //		List.add(naruto);
 //		List.add(java);
 //		
-//		/* 4.¸®½ºÆ®¿¡ ´ã±ä ¸ğµç Ã¥ Á¤º¸ Ãâ·Â  */
+//		/* 4.ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ Ã¥ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½  */
 //		for(int i=0; i<List.size(); i++) {
 //			System.out.printf("List.get(%d) -> %s\n",i,List.get(i));
 //		}
@@ -56,116 +56,116 @@ public class Test {
 //	
 //	public String toString() {
 //		return String.format("Books { name: %s, price %d }",this.name,this.price);
-		// Monster °´Ã¼¸¦ ÀúÀåÇÒ ArrayList »ı¼º
+		// Monster ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ArrayList ï¿½ï¿½ï¿½ï¿½
 //	ArrayList<Monster> list = new ArrayList<Monster>();
 //	
-//	// Monster °´Ã¼ »ı¼º
-//	Monster sul = new Monster("½½¶óÀÓ",1);
-//	Monster ork = new Monster("¿ÀÅ©",3);
-//	Monster goll = new Monster("°ñ·½",8);
+//	// Monster ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
+//	Monster sul = new Monster("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",1);
+//	Monster ork = new Monster("ï¿½ï¿½Å©",3);
+//	Monster goll = new Monster("ï¿½ï¿½",8);
 //	
-//	// ArrayList¿¡ °´Ã¼ ´ã±â
+//	// ArrayListï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½
 //	list.add(sul);
 //	list.add(ork);
 //	list.add(goll);
 //	
-//	// ÀüÃ¼ Ãâ·Â
-//	System.out.println("=== º¯°æ Àü ===");
+//	// ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½
+//	System.out.println("=== ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ===");
 //	for(Monster m : list) {
 //		System.out.println(m);
 //	}
 //	
-//	/* 1. ·¹º§ 1ÀÇ Åä³¢ °´Ã¼¸¦ »ı¼ºÇÏ¼¼¿ä. */
-//	Monster toki = new Monster("Åä³¢",1);
-//	/* 2. ArrayListÀÇ Ã¹ ¿ä¼ÒÀÎ ½½¶óÀÓÀ» Åä³¢·Î º¯°æÇÏ¼¼¿ä. */
+//	/* 1. ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ä³¢ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. */
+//	Monster toki = new Monster("ï¿½ä³¢",1);
+//	/* 2. ArrayListï¿½ï¿½ Ã¹ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ä³¢ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. */
 //	list.set(0,toki);
 //	
-//	// ÀüÃ¼ Ãâ·Â
-//	System.out.println("=== º¯°æ ÈÄ ===");
+//	// ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½
+//	System.out.println("=== ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ===");
 //	for(Monster m2 : list) {
 //		System.out.println(m2);
 //	}
 //	}
 //}
 //class Monster {
-//	// ÇÊµå
+//	// ï¿½Êµï¿½
 //	private String name;
 //	private int level;
 //	
-//	// »ı¼ºÀÚ
+//	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //	public Monster(String name, int level) {
 //		this.name = name;
 //		this.level = level;
 //	}
 //	
-//	// ¸Ş¼Òµå
+//	// ï¿½Ş¼Òµï¿½
 //	public String toString() {
 //		return String.format("Monster { name: %s, level: %d }",this.name,this.level);
-		// Ramen °´Ã¼¸¦ ´ã±â À§ÇÑ ArrayList¸¦ »ı¼ºÇÏ½Ã¿À.
+		// Ramen ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ArrayListï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¿ï¿½.
 //	ArrayList<Ramen> list = new ArrayList<Ramen>();
 //	 
-//	// Ramen °´Ã¼ »ı¼º
-//	Ramen sin = new Ramen("½Å¶ó¸é",800);
-//	Ramen jin = new Ramen("Áø¶ó¸é",700);
-//	Ramen bibim = new Ramen("ºñºö¸é",600);
+//	// Ramen ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
+//	Ramen sin = new Ramen("ï¿½Å¶ï¿½ï¿½",800);
+//	Ramen jin = new Ramen("ï¿½ï¿½ï¿½ï¿½ï¿½",700);
+//	Ramen bibim = new Ramen("ï¿½ï¿½ï¿½ï¿½ï¿½",600);
 //	
-//	/* 1. Ramen °´Ã¼¸¦ ArrayList¿¡ ´ãÀ¸½Ã¿À. */
+//	/* 1. Ramen ï¿½ï¿½Ã¼ï¿½ï¿½ ArrayListï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½. */
 //	list.add(sin);
 //	list.add(jin);
 //	list.add(bibim);
 //	
-//	/* 2. ArrayList¿¡ ´ã±ä ¸ğµç °´Ã¼ Á¤º¸¸¦ Ãâ·ÂÇÏ½Ã¿À. */
+//	/* 2. ArrayListï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã¿ï¿½. */
 //	for(Ramen r : list) {
 //		System.out.println(r);
 //	}
 //	System.out.println("================================");
 //	
-//	/* 3. ÃÑÇÕÀ» Ãâ·ÂÇÏ½Ã¿À. */
+//	/* 3. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã¿ï¿½. */
 //	int sum = 0;
 //	for(int i=0; i<list.size(); i++) {
 //		sum += list.get(i).getter();
 //	}
-//	System.out.printf("ÇÕ°è : %d¿ø",sum);
+//	System.out.printf("ï¿½Õ°ï¿½ : %dï¿½ï¿½",sum);
 //	
 //	}
 //}
 //class Ramen {
-//	// ÇÊµå
+//	// ï¿½Êµï¿½
 //	private String name;
 //	private int price;
 //	
-//	// »ı¼ºÀÚ
+//	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //	public Ramen(String name, int price){
 //		this.name = name;
 //		this.price = price;
 //	}
 //	
-//	// ¸Ş¼Òµå
+//	// ï¿½Ş¼Òµï¿½
 //	public int getter() {
 //		return this.price;
 //	}
 //	
-//	// ¸Ş¼Òµå
+//	// ï¿½Ş¼Òµï¿½
 //	public String toString() {
 //		return String.format("Ramen { name: %s, price: %d }", this.name,this.price);
 //	ArrayList al = new ArrayList();
-//	/*  ArrayList¿¡ ¸Ş¼ÒµåÀÇ add();´Â ¾î¶°ÇÑ µ¥ÀÌÅÍÅ¸ÀÔµµ ¼ö¿ëÇÒ ¼ö ÀÖ´Â ÇüÅÂÀÌ´Ù.
-//	 *  ±×°ÍÀÌ °¡´ÉÇÏ±â À§ÇØ¼­´Â addÀÇ ÀÎÀÚ¿¡ µ¥ÀÌÅÍÅ¸ÀÔÀÌ ¿ÀºêÁ§Æ®¿©¾ßÇÑ´Ù.
-//	 *   ¿Ö³ÄÇÏ¸é ¿ÀºêÁ§Æ®´Â ¸ğµç µ¥ÀÌÅÍÅ¸ÀÔÀÇ Á¶»óÀÌ±â ‹š¹®.*/
-//	al.add("one"); // ArrayList¾È¿¡¼­ ¿ÀºêÁ§Æ® Å¸ÀÔÀ¸·Î ÀúÀåµÇ¾îÀÖ´Ù.
+//	/*  ArrayListï¿½ï¿½ ï¿½Ş¼Òµï¿½ï¿½ï¿½ add();ï¿½ï¿½ ï¿½î¶°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½Ôµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½.
+//	 *  ï¿½×°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ addï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
+//	 *   ï¿½Ö³ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½.*/
+//	al.add("one"); // ArrayListï¿½È¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½Ö´ï¿½.
 //	al.add("two");
 //	al.add("three");
 //	for(int i = 0 ; i < al.size(); i++) {
-//		// ¿ÀºêÁ§Æ® Å¸ÀÔÀÎ get(i)¸¦ ÅëÇØ ¹İÈ¯µÈ °ªÀ» StringÅ¸ÀÔÀÎ value¿¡ ³ÖÀ¸·Á°í ÇØ¼­ ¿À·ù ¹ß»ı
+//		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® Å¸ï¿½ï¿½ï¿½ï¿½ get(i)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ StringÅ¸ï¿½ï¿½ï¿½ï¿½ valueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½
 ////		String value = al.get(i);
-//		// ¿ÀºêÁ§Æ® Å¸ÀÔÀÎ get(i)¸¦ ÅëÇØ ¹İÈ¯µÈ °ªÀ» Stringµ¥ÀÌÅÍ Å¸ÀÔÀ¸·Î Çüº¯È¯ ÇØÁà¾ßÇÔ.
+//		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® Å¸ï¿½ï¿½ï¿½ï¿½ get(i)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Stringï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 //		String value = (String)al.get(i);
 //		System.out.println(value);
 //	}
-//	/* ÇÏÁö¸¸ À§¿Í °°Àº ¹æ½ÄÀº ¿¾³¯ ¹æ½ÄÀÌ°í Å¸ÀÔÀÇ ¾ÈÁ¤¼ºÀÌ ¶³¾îÁö±â ‹š¹®¿¡ »ç¿ëÇÏÁö ¾Ê°í ÀÌÀü ³»¿ëµé°ú °°Àº ¹æ½ÄÀ» »ç¿ëÇÔ.*/
-//	Car c = new Car("ÀÚµ¿Â÷", 2000);
-//	Truck t = new Truck("Æ®·°", 3000, 1.5);
-//	Sport s = new Sport("½ºÆ÷Ã÷Ä«", 6200, 340);
+//	/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ì°ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.*/
+//	Car c = new Car("ï¿½Úµï¿½ï¿½ï¿½", 2000);
+//	Truck t = new Truck("Æ®ï¿½ï¿½", 3000, 1.5);
+//	Sport s = new Sport("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä«", 6200, 340);
 //	
 //	c.klaxqn();
 //	t.klaxqn();
@@ -184,7 +184,7 @@ public class Test {
 //	}
 //	
 //	public void klaxqn() {
-//		System.out.println("¶ì¶ì");
+//		System.out.println("ï¿½ï¿½ï¿½");
 //	}
 //	
 //}
@@ -193,16 +193,16 @@ public class Test {
 //	private double ton;
 //	
 //	public Truck(String name, int dpm, double ton){
-//		super(name,dpm); // ºÎ¸ğÀÇ »ı¼ºÀÚ¸¦ È£Ãâ! -> ºÎ¸ğÀÇ °´Ã¼ »ı¼º!
+//		super(name,dpm); // ï¿½Î¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ È£ï¿½ï¿½! -> ï¿½Î¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½!
 //		this.ton = ton;
 //	}
 //	
 //	public void klaxqn() {
-//		System.out.println("»§»§");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½");
 //	}
 //	
 //	public void load() {
-//		System.out.println("ÁüÀ» ½Æ´Â´Ù.");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Â´ï¿½.");
 //	}
 //}
 //
@@ -215,20 +215,20 @@ public class Test {
 //	 }
 //	 
 //	 public void klaxqn() {
-//		 System.out.println("–Ø¾Æ¾Ó–Ø¾Ó");
+//		 System.out.println("ï¿½Ø¾Æ¾Ó–Ø¾ï¿½");
 //	 }
 //	 
 //	 public void drive () {
-//		 System.out.println("µå¶óÀÌºê!");
+//		 System.out.println("ï¿½ï¿½ï¿½ï¿½Ìºï¿½!");
 //
-//	µğÆúÆ® »ı¼ºÀÚ È£Ãâ ¿¹ 
+//	ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ ï¿½ï¿½ 
 //	new B();
 //	}
 //}
 //class A{
 //	int i = 7;
 //	
-//	// µğÆúÆ® »ı¼ºÀÚ!: ÀÚµ¿À¸·Î È£Ãâ!
+//	// ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!: ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½!
 //	public A() {
 //		setI(20);
 //		System.out.println("i from A is " + i);
@@ -248,11 +248,11 @@ public class Test {
 //	public void setI(int i) {
 //		this.i =3 * i; // 3 * 20
 //===================================================================================
-		/* [Ãß»ó Å¬·¡½º] */
-//		// °¢ µµÇü °´Ã¼ »ı¼º
-//		Circle c = new Circle("¿ø",3);
-//		EquilateralTriangle e = new EquilateralTriangle("Á¤»ï°¢Çü",6);
-//		Rectangle r = new Rectangle("Á÷»ç°¢Çü",9,10);
+		/* [ï¿½ß»ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½] */
+//		// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
+//		Circle c = new Circle("ï¿½ï¿½",3);
+//		EquilateralTriangle e = new EquilateralTriangle("ï¿½ï¿½ï¿½ï°¢ï¿½ï¿½",6);
+//		Rectangle r = new Rectangle("ï¿½ï¿½ï¿½ç°¢ï¿½ï¿½",9,10);
 //		
 //		Shape[] shapes = {c,e,r};
 //		for(Shape s : shapes) {
@@ -268,7 +268,7 @@ public class Test {
 //		this.name = name;
 //	}
 // public String area () {
-//	 return String.format("[%s]ÀÇ ³ĞÀÌ: %.2f",this.name,0);
+//	 return String.format("[%s]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %.2f",this.name,0);
 // }
 //}
 //class Circle extends Shape {
@@ -279,7 +279,7 @@ public class Test {
 //	}
 //	public String area() {
 //		double area = Math.PI*this.radius*this.radius;
-//		return String.format("[%s]ÀÇ ³ĞÀÌ: %.2f",name,area);
+//		return String.format("[%s]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %.2f",name,area);
 //	}
 //}
 //class EquilateralTriangle extends Shape{
@@ -290,7 +290,7 @@ public class Test {
 //	}
 //	public String area() {
 //		double area = 0.5*this.length*Math.sqrt(3)*this.length;
-//		return String.format("[%s]ÀÇ ³ĞÀÌ: %.2f",name,area);
+//		return String.format("[%s]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %.2f",name,area);
 //	}
 //}
 //class Rectangle extends Shape{
@@ -303,40 +303,40 @@ public class Test {
 //	}
 //	public String area() {
 //		double area = this.width*this.height;
-//		return String.format("[%s]ÀÇ ³ĞÀÌ: %.2f",name,area);
+//		return String.format("[%s]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %.2f",name,area);
 		/* ============================================================= */
-//					[ »ó¼Ó°ú ÀÎÅÍÆäÀÌ½º ¹®Á¦ 1]
-//		// °´Ã¼ »ı¼º
-//		KRW krw = new KRW(1500.00,"¿ø");
-//		USD usd = new USD(100.50,"´Ş·¯");
-//		EUR eur = new EUR(260.87,"À¯·Î");
-//		JPY jpy = new JPY(6400.00,"¿£");
-//		// ºÎ¸ğ Å¬·¡½º¸¦ ÅëÇÑ ±×·ìÈ­
+//					[ ï¿½ï¿½Ó°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ï¿½ 1]
+//		// ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
+//		KRW krw = new KRW(1500.00,"ï¿½ï¿½");
+//		USD usd = new USD(100.50,"ï¿½Ş·ï¿½");
+//		EUR eur = new EUR(260.87,"ï¿½ï¿½ï¿½ï¿½");
+//		JPY jpy = new JPY(6400.00,"ï¿½ï¿½");
+//		// ï¿½Î¸ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½×·ï¿½È­
 //		Currency[] cur = {krw,usd,eur,jpy};
-//		// ¸ğµç È­ÆóÁ¤º¸¸¦ Ãâ·Â
+//		// ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 //		for(Currency c : cur) {
 //			System.out.printf("%s\n",c.toString());
 //		}
 //	}
 //}
-//// 1. ºÎ¸ğÅ¬·¡½º ÀÛ¼º
+//// 1. ï¿½Î¸ï¿½Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½
 //class Currency {
-//	// 1.1 Áßº¹ ÇÊµå¸¦ ÀÛ¼º
-//	private double amount; // ¼ö·®
-//	private String notation; // Ç¥±â¹ı
-//	// 1.2 »ı¼ºÀÚ¸¦ ÀÛ¼º
+//	// 1.1 ï¿½ßºï¿½ ï¿½Êµå¸¦ ï¿½Û¼ï¿½
+//	private double amount; // ï¿½ï¿½ï¿½ï¿½
+//	private String notation; // Ç¥ï¿½ï¿½ï¿½
+//	// 1.2 ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Û¼ï¿½
 //	public Currency(double amount,String notation) {
 //		this.amount = amount;
 //		this.notation = notation;
 //	}
-//	// 3. toString() ¸Ş¼Òµå ¿À¹ö¶óÀÌµù
-//	// ±¸±Û¸µ: "ÀÚ¹Ù Object toString() ¸Ş¼Òµå"
-//	public String toString() {           // ¡é Æ¯Á¤ °´Ã¼ÀÇ Å¬·¡½º¸íÀ» °¡Á®¿È. ¡é        
+//	// 3. toString() ï¿½Ş¼Òµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½
+//	// ï¿½ï¿½ï¿½Û¸ï¿½: "ï¿½Ú¹ï¿½ Object toString() ï¿½Ş¼Òµï¿½"
+//	public String toString() {           // ï¿½ï¿½ Æ¯ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. ï¿½ï¿½        
 //		return String.format("%s: %.2f %s",this.getClass().getSimpleName(),amount,notation);
 //	}
 //}
 //
-//// 2. ÀÚ½ÄÅ¬·¡½º°¡ ºÎ¸ğÅ¬·¡½º »ó¼Ó
+//// 2. ï¿½Ú½ï¿½Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î¸ï¿½Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 //class KRW extends Currency{
 //	public KRW(double amount, String notation) {
 //		super(amount,notation);
@@ -359,38 +359,38 @@ public class Test {
 //	public JPY(double amount, String notation) {
 //		super(amount,notation);
 		/* ============================================================= */
-//					[ »ó¼Ó°ú ÀÎÅÍÆäÀÌ½º ¹®Á¦ 2]
-		// »óÇ° °´Ã¼ »ı¼º
-		// 1-1 Goods¿¡ ÇØ´çÇÏ´Â ¸ğµç °´Ã¼´Â
-//		Goods m = new Monitor("FHD ¿ÍÀÌµå ¸ğ´ÏÅÍ",450000);
-//		Goods t = new TV("5K º®°ÉÀÌ TV",2350000);
-//		Goods c = new Computer("³ëÆ®ºÏ °í±ŞÇü",1650000);
+//					[ ï¿½ï¿½Ó°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2]
+		// ï¿½ï¿½Ç° ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
+		// 1-1 Goodsï¿½ï¿½ ï¿½Ø´ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½
+//		Goods m = new Monitor("FHD ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½",450000);
+//		Goods t = new TV("5K ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ TV",2350000);
+//		Goods c = new Computer("ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½",1650000);
 //		
-//		// Àå¹Ù±¸´Ï¿¡ ´ã±â
-//		// 1-2 ArrayList¿¡ ´ã±æ ¼ö ÀÖ´Ù.
+//		// ï¿½ï¿½Ù±ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½
+//		// 1-2 ArrayListï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.
 //		ArrayList<Goods> cart = new ArrayList<Goods>();
 //		cart.add(m);
 //		cart.add(t);
 //		cart.add(c);
-//		// Àå¹Ù±¸´Ï ³»¿ª Ãâ·Â
+//		// ï¿½ï¿½Ù±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 //		for(Goods g : cart) {
 //			System.out.println(g.toString());
 //		}
 //	}
 //}
-///* ºÎ¸ğÀÌÀÚ Ãß»óÅ¬·¡½º */
+///* ï¿½Î¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½Å¬ï¿½ï¿½ï¿½ï¿½ */
 //abstract class Goods {
-//	/* (1) Ãß»ó Å¬·¡½ºÀÇ ÇÊµå¸¦ Ãß°¡ÇÏ½Ã¿À */
-//	private String name; // ÀÌ¸§ 
-//	private int price;   // °¡°İ
-//	/* (2) Ãß»ó Å¬·¡½ºÀÇ »ı¼ºÀÚ¸¦ Ãß°¡ÇÏ½Ã¿À */
+//	/* (1) ï¿½ß»ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Êµå¸¦ ï¿½ß°ï¿½ï¿½Ï½Ã¿ï¿½ */
+//	private String name; // ï¿½Ì¸ï¿½ 
+//	private int price;   // ï¿½ï¿½ï¿½ï¿½
+//	/* (2) ï¿½ß»ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ß°ï¿½ï¿½Ï½Ã¿ï¿½ */
 //	public Goods(String name, int price){
 //		this.name = name;
 //		this.price = price;
 //	}
-//	/* (3) Ãß»ó Å¬·¡½ºÀÇ toString() ¸Ş¼Òµå¸¦ ¿À¹ö¶óÀÌµùÇÏ½Ã¿À.*/
+//	/* (3) ï¿½ß»ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ toString() ï¿½Ş¼Òµå¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½Ï½Ã¿ï¿½.*/
 //	public String toString() {
-//		return String.format("%s: %d¿ø",name,price);
+//		return String.format("%s: %dï¿½ï¿½",name,price);
 //	}
 //}
 //
@@ -410,26 +410,26 @@ public class Test {
 //	Computer(String name, int price){
 //		super(name,price);
 		/* ============================================================= */
-//					[ »ó¼Ó°ú ÀÎÅÍÆäÀÌ½º ¹®Á¦ 3]	
-		// µÎ ¿µ¿õ »ı¼º
-//		Knight useo = new HolyKnight("¿ì¼­", 200, 10); // ¼º±â»ç¸¦ ±â»ç·Î ¹Ù¶óº¸±â‹š¹®¿¡ ±â»çÀÇ ¿ªÇÒ¸¸ »ç¿ë °¡´É.
-//		Knight arthas = new MagicKnight("¾Æ¼­½º", 150, 8);
+//					[ ï¿½ï¿½Ó°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3]	
+		// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		Knight useo = new HolyKnight("ï¿½ì¼­", 200, 10); // ï¿½ï¿½ï¿½ï¿½ç¸¦ ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¶óº¸±â‹šï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+//		Knight arthas = new MagicKnight("ï¿½Æ¼ï¿½ï¿½ï¿½", 150, 8);
 //
-//		/*°üÁ¡À» ´Ş¸®ÇÑ´Ù!!!*/
-//		/*´ÙÀÌ¾î±×·¥À» ÂüÁ¶ÇÏ´Â ½À°üÀ» µéÀÌÀÚ!*/
+//		/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ş¸ï¿½ï¿½Ñ´ï¿½!!!*/
+//		/*ï¿½ï¿½ï¿½Ì¾ï¿½×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!*/
 //		
-//		// ¿ì¼­: ±â»ç ¹öÇÁ
+//		// ï¿½ì¼­: ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		useo.increaseHp();
 //		useo.increaseArmor();
-//		// ¿ì¼­: ¼º±â»ç ¹öÇÁ
-//		HolyKnight holyuseo = (HolyKnight) useo; // Ä³½ºÆÃ (°üÁ¡À» ´Ù¸£°Ô ¹Ù¶óº½)
+//		// ï¿½ì¼­: ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		HolyKnight holyuseo = (HolyKnight) useo; // Ä³ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½ï¿½ ï¿½Ù¶ï¿½)
 //		holyuseo.healingAura();
 //		holyuseo.holyArmor();
 //		
-//		// ¾Æ¼­½º: ±â»ç ¹öÇÁ
+//		// ï¿½Æ¼ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		arthas.increaseHp();
 //		arthas.increaseArmor();
-//		// ¾Æ¼­½º: ¸¶°Ë»ç ¹öÇÁ
+//		// ï¿½Æ¼ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½Ë»ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		MagicKnight magicarthas = (MagicKnight) arthas;
 //		magicarthas.fireArmor();
 //		magicarthas.thunderBlade();
@@ -438,21 +438,21 @@ public class Test {
 //}
 //
 //interface Tanker {
-//	public void increaseArmor(); // ¾Æ¸Ó
+//	public void increaseArmor(); // ï¿½Æ¸ï¿½
 //
-//	public void increaseHp(); // Ã¼·Â +100
+//	public void increaseHp(); // Ã¼ï¿½ï¿½ +100
 //}
 //
 //interface Healer {
-//	public void healingAura(); // ÃÊ´ç Ã¼·ÂÈ¸º¹ +10
+//	public void healingAura(); // ï¿½Ê´ï¿½ Ã¼ï¿½ï¿½È¸ï¿½ï¿½ +10
 //
-//	public void holyArmor(); // µ¥¹ÌÁö °¨¼Ò -10
+//	public void holyArmor(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ -10
 //}
 //
 //interface Sorcerer {
-//	public void fireArmor(); // ÁÖº¯Àû ÃÊ´ç µ¥¹ÌÁö +10
+//	public void fireArmor(); // ï¿½Öºï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ +10
 //
-//	public void thunderBlade(); // °ø°İ½Ã Ãß°¡ µ¥¹ÌÁö +10
+//	public void thunderBlade(); // ï¿½ï¿½ï¿½İ½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ +10
 //}
 //
 //class Knight implements Tanker {
@@ -467,32 +467,32 @@ public class Test {
 //	}
 //
 //	public void increaseArmor() {
-//		System.out.printf("[%s] increaseHp() ½ÃÀü!\n",name);
-//		System.out.printf("\t¾Æ¸Ó°¡ +5 Áõ°¡ÇÕ´Ï´Ù.\n");
+//		System.out.printf("[%s] increaseHp() ï¿½ï¿½ï¿½ï¿½!\n",name);
+//		System.out.printf("\tï¿½Æ¸Ó°ï¿½ +5 ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.\n");
 //		armor += 5;
 //	}
 //
 //	public void increaseHp() {
-//		System.out.printf("[%s] increaseHp() ½ÃÀü!\n",name);
-//		System.out.printf("\tÃ¼·ÂÀÌ +100 Áõ°¡ÇÕ´Ï´Ù.\n");
+//		System.out.printf("[%s] increaseHp() ï¿½ï¿½ï¿½ï¿½!\n",name);
+//		System.out.printf("\tÃ¼ï¿½ï¿½ï¿½ï¿½ +100 ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.\n");
 //		hp += 100;
 //  }
 //}
 //
-//// 1. ÀÎÅÍÆäÀÌ½ºÀÇ ¸Ş¼Òµå¸¦ ¿À¹ö¶óÀÌµù
+//// 1. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½Ş¼Òµå¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½
 //class HolyKnight extends Knight implements Healer {
 //	public HolyKnight(String name, int armor, int hp) {
 //		super(name, armor, hp);
 //	}
 //
 //	public void healingAura() {
-//		System.out.printf("[%s] healingAura() ½ÃÀü!\n",name);
-//		System.out.printf("\tÃÊ´ç Ã¼·ÂÈ¸º¹ÀÌ +10 Áõ°¡ÇÕ´Ï´Ù.\n");
+//		System.out.printf("[%s] healingAura() ï¿½ï¿½ï¿½ï¿½!\n",name);
+//		System.out.printf("\tï¿½Ê´ï¿½ Ã¼ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ +10 ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.\n");
 //	}
 //
 //	public void holyArmor() {
-//		System.out.printf("[%s] holyArmor() ½ÃÀü!\n",name);
-//		System.out.printf("\tÇÇ°İ½Ã µ¥¹ÌÁö¸¦ -10 ´ú ¹Ş½À´Ï´Ù.\n");
+//		System.out.printf("[%s] holyArmor() ï¿½ï¿½ï¿½ï¿½!\n",name);
+//		System.out.printf("\tï¿½Ç°İ½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -10 ï¿½ï¿½ ï¿½Ş½ï¿½ï¿½Ï´ï¿½.\n");
 //  }
 //}
 //
@@ -503,19 +503,19 @@ public class Test {
 //	}
 //
 //	public void fireArmor() {
-//		System.out.printf("[%s] fireArmor() ½ÃÀü!\n",name);
-//		System.out.printf("\tÃÊ´ç ÁÖº¯ Àû¿¡°Ô ÃÊ´ç +10ÀÇ µ¥¹ÌÁö¸¦ Áİ´Ï´Ù.\n");
+//		System.out.printf("[%s] fireArmor() ï¿½ï¿½ï¿½ï¿½!\n",name);
+//		System.out.printf("\tï¿½Ê´ï¿½ ï¿½Öºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ +10ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½İ´Ï´ï¿½.\n");
 //	}
 //
 //	public void thunderBlade() {
-//		System.out.printf("[%s] healingAura() ½ÃÀü!\n",name);
-//		System.out.printf("\t¸Å °ø°İ½Ã +10ÀÇ Ãß°¡ µ¥¹ÌÁö¸¦ Áİ´Ï´Ù.\n");
+//		System.out.printf("[%s] healingAura() ï¿½ï¿½ï¿½ï¿½!\n",name);
+//		System.out.printf("\tï¿½ï¿½ ï¿½ï¿½ï¿½İ½ï¿½ +10ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½İ´Ï´ï¿½.\n");
 
 	Scanner sca = new Scanner(System.in);
-	System.out.println("½ÃÀÛ ´Ü°ú ³¡´ÜÀ» ÁöÁ¤ÇØÁÖ¼¼¿ä.");
-	System.out.print("½ÃÀÛ:"); 
+	System.out.println("ì‹œì‘ ë‹¨ê³¼ ëë‹¨ì„ ì…ë ¥í•˜ì„¸ìš”.");
+	System.out.print("ì‹œì‘ ë‹¨ : "); 
 	int in1 = sca.nextInt();
-	System.out.print("³¡:");
+	System.out.print("ë ë‹¨ : ");
 	int in2 = sca.nextInt();
 	System.out.println();
 	for(int i=1; i<=9; i++) {
@@ -524,7 +524,25 @@ public class Test {
 		}
 		System.out.println();
 	}
+		
+//	System.out.printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½â·«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½? :");
+//	int in = sca.nextInt();
+//	System.out.printf("ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ : %d\n\n",in);
+//	if(in < 2 || in > 9) {
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ß¸ï¿½ ï¿½Ô·ï¿½ï¿½ß½ï¿½ï¿½Ï´ï¿½.");
+//	}else {
+//		for(int i=1; i<10; i++) {
+//			System.out.printf("%dx%d=%d\n",in,i,in*i);
+//		}
+//	}
 	
-  }
+//	int[] result = new int[9];
+//	for(int i=1; i<=result.length; i++) {
+//		result[i-1] = 2*i;
+//	}
+//	for(int i=1; i<=result.length; i++) {
+//		System.out.println(result[i-1]);
+//	}
+	sca.close();
+	}
 }
-
